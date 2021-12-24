@@ -31,7 +31,7 @@ PM_START_TEXT = """
 
 *ᴀᴍ {} ᴀ Hɪɢʜʟʏ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ᴛᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ, Jᴜsᴛ Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ Aᴅᴅ Mᴇ Bᴜᴛᴛᴏɴ ᴀɴᴅ Sᴇʟᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘ*
 
-*Pᴏᴡᴇʀᴇᴅ By Tᴇᴀᴍ Lᴀᴅ](t.me/Team_Lad)*
+*Pᴏᴡᴇʀᴇᴅ By [Tᴇᴀᴍ Lᴀᴅ](t.me/Team_Lad)*
 
 """
 
@@ -182,7 +182,7 @@ def send_start(bot, update):
     text = PM_START_TEXT
 
     keyboard = [[InlineKeyboardButton(text="Help & Commands",callback_data="help_back")]]
-    keyboard += [[InlineKeyboardButton(text="Updates", url="t.me/Team_Lad"),InlineKeyboardButton(text="Add Me",url="t.me/{}?startgroup=true".format(bot.username))]]
+    keyboard += [[InlineKeyboardButton(text="Updates", url="t.me/Team_Lad"),InlineKeyboardButton(text="Aᴅᴅ Mᴇ",url="t.me/{}?startgroup=true".format(bot.username))]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
