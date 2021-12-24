@@ -27,9 +27,12 @@ from cinderella.modules.connection import connect_button
 
 
 PM_START_TEXT = """
-_Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram Bot to Manage Your Groups,feel free to add to your groups!!_
-_Maintained by_ [{}](tg://user?id={})
+*Hᴇʏ Tᕼᴇʀᴇ* _{}_
+
+*ᴀᴍ {} ᴀ Hɪɢᕼʟʏ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ᴛᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ, Jᴜsᴛ Cʟɪᴄᴋ ᴏɴ ᴛᕼᴇ Aᴅᴅ Mᴇ Bᴜᴛᴛᴏɴ ᴀɴᴅ Sᴇʟᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘ*
+
+*Pᴏᴡᴇʀᴇᴅ Bʏ Tᴇᴀᴍ Lᴀᴅ*
+
 """
 
 
