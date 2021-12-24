@@ -39,13 +39,10 @@ PM_START_TEXT = """
 HELP_STRINGS = """
 *MAIN COMMANDS AVAILABLE*[👻](https://telegra.ph/file/c679d7afadfa8831d40af.jpg)
 
-    🦋 ~ /start : `start me`
-
-    🦋 ~ /help : `Pm's you this message.`
-
-    🦋 ~ /help : `<module name> Pm's you info about that module.`
-
-    🦋 ~ /settings : `___ check it!`
+    🦋 ~ /start : _start me_
+    🦋 ~ /help : _Pm's you this message._
+    🦋 ~ /help : _<module name> Pm's you info about that module._
+    🦋 ~ /settings : _...check it!_
 `{}`
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
