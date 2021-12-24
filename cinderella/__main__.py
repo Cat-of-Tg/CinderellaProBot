@@ -29,9 +29,9 @@ from cinderella.modules.connection import connect_button
 PM_START_TEXT = """
 *Hᴇʏ Tᕼᴇʀᴇ* _{}_
 
-*ᴀᴍ {} ᴀ Hɪɢᕼʟʏ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ᴛᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ, Jᴜsᴛ Cʟɪᴄᴋ ᴏɴ ᴛᕼᴇ Aᴅᴅ Mᴇ Bᴜᴛᴛᴏɴ ᴀɴᴅ Sᴇʟᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘ*
+*ᴀᴍ {} ᴀ Hɪɢʜʟʏ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ᴛᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ, Jᴜsᴛ Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ Aᴅᴅ Mᴇ Bᴜᴛᴛᴏɴ ᴀɴᴅ Sᴇʟᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘ*
 
-*Pᴏᴡᴇʀᴇᴅ Bʏ Tᴇᴀᴍ Lᴀᴅ*
+*Pᴏᴡᴇʀᴇᴅ By Tᴇᴀᴍ Lᴀᴅ](t.me/Team_Lad)*
 
 """
 
